@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrazione</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Registrazione</h2>
+
+    <form id="form">
+        <input type="text" id="nome" placeholder="Nome">
+        <div class="error" id="errNome"></div>
+
+        <input type="text" id="cognome" placeholder="Cognome">
+        <div class="error" id="errCognome"></div>
+
+        <input type="date" id="dataNascita">
+        <div class="error" id="errData"></div>
+
+        <input type="text" id="luogoNascita" placeholder="Luogo di nascita">
+        <div class="error" id="errLuogo"></div>
+
+        <input type="email" id="email" placeholder="Email">
+        <div class="error" id="errEmail"></div>
+
+        <input type="email" id="email2" placeholder="Conferma Email">
+        <div class="error" id="errEmail2"></div>
+
+        <input type="password" id="password" placeholder="Password">
+        <div class="error" id="errPassword"></div>
+
+        <button type="submit">Registrati</button>
+    </form>
+
+    <div class="success" id="successMsg"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
